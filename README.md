@@ -14,8 +14,8 @@ A Python-based **multi-depth network and web scanner** that integrates with `nma
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/YourUsername/your-scanner.git
-cd your-scanner
+git clone https://github.com/PT-CODING/multi-depth-scanner.git
+cd multi-depth-scanner
 pip install -r requirements.txt
 ```
 
@@ -65,5 +65,6 @@ The author assumes **no responsibility** for misuse or damage caused by this too
 ---
 
 ## 📜 License
+
 
 Released under the MIT License. See [LICENSE](LICENSE) for details.
