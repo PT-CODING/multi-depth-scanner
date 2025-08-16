@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Scan Report 192.168.1.50</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+    body{font-family:Inter,Arial,sans-serif;margin:0;background:#0b1020;color:#e7ecf3}
+    header{padding:24px 32px;background:linear-gradient(135deg,#0f172a,#1e293b);border-bottom:1px solid #223}
+    h1{margin:0;font-size:28px}
+    .meta{opacity:.8}
+    .container{padding:24px 32px}
+    .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+    .card{background:#111930;border:1px solid #223;border-radius:16px;padding:16px;box-shadow:0 1px 0 #000}
+    .card h2{margin:0 0 8px 0;font-size:18px}
+    table{width:100%;border-collapse:collapse;border-radius:12px;overflow:hidden}
+    th,td{padding:10px 12px;border-bottom:1px solid #223;text-align:left;font-size:14px}
+    th{background:#0d152a;position:sticky;top:0}
+    .badge{display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;border:1px solid #345;background:#0a1428}
+    .ok{color:#4ade80;border-color:#234}
+    .warn{color:#fbbf24;border-color:#443}
+    .err{color:#f87171;border-color:#522}
+    .muted{opacity:.7}
+    .section{margin-top:24px}
+    pre{white-space:pre-wrap;background:#0a1420;border:1px solid #223;border-radius:12px;padding:12px;max-height:420px;overflow:auto}
+    a{color:#93c5fd;text-decoration:none}
+    a:hover{text-decoration:underline}
+    .credit{padding:10px 32px;font-size:16px;font-weight:700;text-align:center;border-bottom:2px solid #ffffff;border-radius:8px;margin:8px 32px;box-shadow:0 0 8px rgba(255,255,255,.3);animation:colorChange 4s infinite}
+    .credit a{color:#ffffff;text-shadow:0 1px 3px rgba(0,0,0,.4)}
+    .credit a:hover{transform:scale(1.1);transition:transform .2s;color:#f0f9ff;text-decoration:none}
+    @keyframes colorChange {
+        0% {background:linear-gradient(135deg,#ef4444,#f97316)}
+        25% {background:linear-gradient(135deg,#3b82f6,#06b6d4)}
+        50% {background:linear-gradient(135deg,#10b981,#22c55e)}
+        75% {background:linear-gradient(135deg,#8b5cf6,#d946ef)}
+        100% {background:linear-gradient(135deg,#ef4444,#f97316)}
+    }
+    </style></head><body>
+<div class="credit">
+  Created by <a href="https://github.com/PT-CODING/YOSEFCOHEN" target="_blank">Yosef Cohen</a>
+</div>
+<header>
+  <h1>Scan Report — 192.168.1.50 <span class="badge">M</span></h1>
+  <div class="meta">Generated: 2025-08-17 00:18:02</div>
+</header>
+<div class="container">
+<div class="grid">
+  <div class="card">
+    <h2>Host Info</h2>
+    <div class="muted">IP: <code>192.168.1.50</code></div>
+    <div>Open Ports: <b>3</b></div>
+    <div>HTTP Targets: <b>5</b></div>
+  </div>
+  <div class="card">
+    <h2>OS Guess</h2>
+    <div>Linux 3.2 - 4.14 (accuracy 100%)</div>
+  </div>
+  <div class="card">
+    <h2>Traceroute</h2>
+    <pre>N/A</pre>
+  </div>
+</div>
+
+<div class="section card">
+  <h2>Open Ports</h2>
+  <table>
+    <thead><tr><th>Port</th><th>State</th><th>Service</th><th>Version</th></tr></thead>
+    <tbody><tr>
+          <td><span class="badge ok">22</span></td>
+          <td>open</td>
+          <td>ssh</td>
+          <td>OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13</td>
+        </tr><tr>
+          <td><span class="badge ok">80</span></td>
+          <td>open</td>
+          <td>http</td>
+          <td>Apache httpd 2.4.7</td>
+        </tr><tr>
+          <td><span class="badge ok">3306</span></td>
+          <td>open</td>
+          <td>mysql</td>
+          <td>MySQL 5.5.62-0ubuntu0.14.04.1</td>
+        </tr></tbody></table></div><div class="section card"><h2>Vulnerabilities</h2><div class="muted">No vulnerabilities reported by scripts.</div></div><div class="section card"><h2>HTTP/HTTPS Pages</h2><div class="section">
+                <div><b>URL:</b> <a href="http://192.168.1.50:22" target="_blank">http://192.168.1.50:22</a></div>
+                <div>Status: <span class="badge err">ERROR</span></div>
+                <div class="muted">Title: -</div>
+                <details><summary>Headers</summary>
+                    <pre>{}</pre>
+                </details>
+                <details><summary>Body Preview</summary>
+                    <pre></pre>
+                </details>
+            </div><div class="section">
+                <div><b>URL:</b> <a href="https://192.168.1.50:22" target="_blank">https://192.168.1.50:22</a></div>
+                <div>Status: <span class="badge err">ERROR</span></div>
+                <div class="muted">Title: -</div>
+                <details><summary>Headers</summary>
+                    <pre>{}</pre>
+                </details>
+                <details><summary>Body Preview</summary>
+                    <pre></pre>
+                </details>
+            </div><div class="section">
+                <div><b>URL:</b> <a href="http://192.168.1.50:80" target="_blank">http://192.168.1.50:80</a></div>
+                <div>Status: <span class="badge ok">200</span></div>
+                <div class="muted">Title: -</div>
+                <details><summary>Headers</summary>
+                    <pre>{
+  "Date": "Sat, 16 Aug 2025 21:17:49 GMT",
+  "Server": "Apache/2.4.7 (Ubuntu)",
+  "Last-Modified": "Thu, 13 Aug 2015 14:21:44 GMT",
+  "ETag": "\"134-51d320dffee00-gzip\"",
+  "Accept-Ranges": "bytes",
+  "Vary": "Accept-Encoding",
+  "Content-Encoding": "gzip",
+  "Content-Length": "237",
+  "Keep-Alive": "timeout=5, max=100",
+  "Connection": "Keep-Alive",
+  "Content-Type": "text/html"
+}</pre>
+                </details>
+                <details><summary>Body Preview</summary>
+                    <pre>&lt;!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+--&gt;
+&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;&lt;/title&gt;
+    &lt;meta HTTP-EQUIV="REFRESH" content="0; url=content/smarthome.php"&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+   
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+                </details>
+            </div><div class="section">
+                <div><b>URL:</b> <a href="http://192.168.1.50:3306" target="_blank">http://192.168.1.50:3306</a></div>
+                <div>Status: <span class="badge err">ERROR</span></div>
+                <div class="muted">Title: -</div>
+                <details><summary>Headers</summary>
+                    <pre>{}</pre>
+                </details>
+                <details><summary>Body Preview</summary>
+                    <pre></pre>
+                </details>
+            </div><div class="section">
+                <div><b>URL:</b> <a href="https://192.168.1.50:3306" target="_blank">https://192.168.1.50:3306</a></div>
+                <div>Status: <span class="badge err">ERROR</span></div>
+                <div class="muted">Title: -</div>
+                <details><summary>Headers</summary>
+                    <pre>{}</pre>
+                </details>
+                <details><summary>Body Preview</summary>
+                    <pre></pre>
+                </details>
+            </div></div><div class="section card"><h2>Directory Discovery (Wordlist)</h2><table><thead><tr><th>URL</th><th>Status</th><th>Length</th><th>Location</th></tr></thead><tbody><tr>
+                <td><a href="http://192.168.1.50:80/iphone/" target="_blank">http://192.168.1.50:80/iphone/</a></td>
+                <td><span class="badge ok">200</span></td>
+                <td>237</td>
+                <td>-</td>
+            </tr><tr>
+                <td><a href="http://192.168.1.50:80/data/" target="_blank">http://192.168.1.50:80/data/</a></td>
+                <td><span class="badge ok">200</span></td>
+                <td>462</td>
+                <td>-</td>
+            </tr><tr>
+                <td><a href="http://192.168.1.50:80/nbproject/" target="_blank">http://192.168.1.50:80/nbproject/</a></td>
+                <td><span class="badge ok">200</span></td>
+                <td>501</td>
+                <td>-</td>
+            </tr><tr>
+                <td><a href="http://192.168.1.50:80/update/" target="_blank">http://192.168.1.50:80/update/</a></td>
+                <td><span class="badge ok">200</span></td>
+                <td>552</td>
+                <td>-</td>
+            </tr><tr>
+                <td><a href="http://192.168.1.50:80/inc/" target="_blank">http://192.168.1.50:80/inc/</a></td>
+                <td><span class="badge ok">200</span></td>
+                <td>560</td>
+                <td>-</td>
+            </tr><tr>
+                <td><a href="http://192.168.1.50:80/http/" target="_blank">http://192.168.1.50:80/http/</a></td>
+                <td><span class="badge ok">200</span></td>
+                <td>580</td>
+                <td>-</td>
+            </tr><tr>
+                <td><a href="http://192.168.1.50:80/audio/" target="_blank">http://192.168.1.50:80/audio/</a></td>
+                <td><span class="badge ok">200</span></td>
+                <td>717</td>
+                <td>-</td>
+            </tr><tr>
+                <td><a href="http://192.168.1.50:80/touch/" target="_blank">http://192.168.1.50:80/touch/</a></td>
+                <td><span class="badge ok">200</span></td>
+                <td>736</td>
+                <td>-</td>
+            </tr><tr>
+                <td><a href="http://192.168.1.50:80/css/" target="_blank">http://192.168.1.50:80/css/</a></td>
+                <td><span class="badge ok">200</span></td>
+                <td>781</td>
+                <td>-</td>
+            </tr><tr>
+                <td><a href="http://192.168.1.50:80/DB/" target="_blank">http://192.168.1.50:80/DB/</a></td>
+                <td><span class="badge ok">200</span></td>
+                <td>949</td>
+                <td>-</td>
+            </tr><tr>
+                <td><a href="http://192.168.1.50:80/images/" target="_blank">http://192.168.1.50:80/images/</a></td>
+                <td><span class="badge ok">200</span></td>
+                <td>1325</td>
+                <td>-</td>
+            </tr><tr>
+                <td><a href="http://192.168.1.50:80/backup/" target="_blank">http://192.168.1.50:80/backup/</a></td>
+                <td><span class="badge ok">200</span></td>
+                <td>1439</td>
+                <td>-</td>
+            </tr><tr>
+                <td><a href="http://192.168.1.50:80/js/" target="_blank">http://192.168.1.50:80/js/</a></td>
+                <td><span class="badge ok">200</span></td>
+                <td>1773</td>
+                <td>-</td>
+            </tr><tr>
+                <td><a href="http://192.168.1.50:80/content/" target="_blank">http://192.168.1.50:80/content/</a></td>
+                <td><span class="badge ok">200</span></td>
+                <td>2341</td>
+                <td>-</td>
+            </tr><tr>
+                <td><a href="http://192.168.1.50:80/ui/" target="_blank">http://192.168.1.50:80/ui/</a></td>
+                <td><span class="badge ok">200</span></td>
+                <td>2636</td>
+                <td>-</td>
+            </tr><tr>
+                <td><a href="http://192.168.1.50:80/phpmyadmin/" target="_blank">http://192.168.1.50:80/phpmyadmin/</a></td>
+                <td><span class="badge ok">200</span></td>
+                <td>2699</td>
+                <td>-</td>
+            </tr><tr>
+                <td><a href="http://192.168.1.50:80/icons/" target="_blank">http://192.168.1.50:80/icons/</a></td>
+                <td><span class="badge warn">403</span></td>
+                <td>285</td>
+                <td>-</td>
+            </tr><tr>
+                <td><a href="http://192.168.1.50:80/.htaccess/" target="_blank">http://192.168.1.50:80/.htaccess/</a></td>
+                <td><span class="badge warn">403</span></td>
+                <td>289</td>
+                <td>-</td>
+            </tr><tr>
+                <td><a href="http://192.168.1.50:80/.htpasswd/" target="_blank">http://192.168.1.50:80/.htpasswd/</a></td>
+                <td><span class="badge warn">403</span></td>
+                <td>289</td>
+                <td>-</td>
+            </tr><tr>
+                <td><a href="http://192.168.1.50:80/javascript/" target="_blank">http://192.168.1.50:80/javascript/</a></td>
+                <td><span class="badge warn">403</span></td>
+                <td>290</td>
+                <td>-</td>
+            </tr><tr>
+                <td><a href="http://192.168.1.50:80/server-status/" target="_blank">http://192.168.1.50:80/server-status/</a></td>
+                <td><span class="badge warn">403</span></td>
+                <td>293</td>
+                <td>-</td>
+            </tr></tbody></table></div><div class="section card">
+        <h2>Raw Nmap JSON</h2>
+        <details open><summary>Show/Hide</summary>
+        <pre>{
+  "nmap": {
+    "command_line": "nmap -oX - -T4 -p 1-5000 -sV -O --script http-title,ssl-cert 192.168.1.50",
+    "scaninfo": {
+      "tcp": {
+        "method": "syn",
+        "services": "1-5000"
+      }
+    },
+    "scanstats": {
+      "timestr": "Sun Aug 17 00:17:48 2025",
+      "elapsed": "8.63",
+      "uphosts": "1",
+      "downhosts": "0",
+      "totalhosts": "1"
+    }
+  },
+  "scan": {
+    "192.168.1.50": {
+      "hostnames": [
+        {
+          "name": "",
+          "type": ""
+        }
+      ],
+      "addresses": {
+        "ipv4": "192.168.1.50",
+        "mac": "FC:AA:14:F0:61:4B"
+      },
+      "vendor": {
+        "FC:AA:14:F0:61:4B": "Giga-byte Technology"
+      },
+      "status": {
+        "state": "up",
+        "reason": "arp-response"
+      },
+      "uptime": {
+        "seconds": "9881",
+        "lastboot": "Sat Aug 16 21:33:07 2025"
+      },
+      "tcp": {
+        "22": {
+          "state": "open",
+          "reason": "syn-ack",
+          "name": "ssh",
+          "product": "OpenSSH",
+          "version": "6.6.1p1 Ubuntu 2ubuntu2.13",
+          "extrainfo": "Ubuntu Linux; protocol 2.0",
+          "conf": "10",
+          "cpe": "cpe:/o:linux:linux_kernel"
+        },
+        "80": {
+          "state": "open",
+          "reason": "syn-ack",
+          "name": "http",
+          "product": "Apache httpd",
+          "version": "2.4.7",
+          "extrainfo": "(Ubuntu)",
+          "conf": "10",
+          "cpe": "cpe:/a:apache:http_server:2.4.7",
+          "script": {
+            "http-title": "Site doesn't have a title (text/html).",
+            "http-server-header": "Apache/2.4.7 (Ubuntu)"
+          }
+        },
+        "3306": {
+          "state": "open",
+          "reason": "syn-ack",
+          "name": "mysql",
+          "product": "MySQL",
+          "version": "5.5.62-0ubuntu0.14.04.1",
+          "extrainfo": "",
+          "conf": "10",
+          "cpe": "cpe:/a:mysql:mysql:5.5.62-0ubuntu0.14.04.1"
+        }
+      },
+      "portused": [
+        {
+          "state": "open",
+          "proto": "tcp",
+          "portid": "22"
+        },
+        {
+          "state": "closed",
+          "proto": "tcp",
+          "portid": "1"
+        },
+        {
+          "state": "closed",
+          "proto": "udp",
+          "portid": "34691"
+        }
+      ],
+      "osmatch": [
+        {
+          "name": "Linux 3.2 - 4.14",
+          "accuracy": "100",
+          "line": "68432",
+          "osclass": [
+            {
+              "type": "general purpose",
+              "vendor": "Linux",
+              "osfamily": "Linux",
+              "osgen": "3.X",
+              "accuracy": "100",
+              "cpe": [
+                "cpe:/o:linux:linux_kernel:3"
+              ]
+            },
+            {
+              "type": "general purpose",
+              "vendor": "Linux",
+              "osfamily": "Linux",
+              "osgen": "4.X",
+              "accuracy": "100",
+              "cpe": [
+                "cpe:/o:linux:linux_kernel:4"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Linux 3.8 - 3.16",
+          "accuracy": "100",
+          "line": "69380",
+          "osclass": [
+            {
+              "type": "general purpose",
+              "vendor": "Linux",
+              "osfamily": "Linux",
+              "osgen": "3.X",
+              "accuracy": "100",
+              "cpe": [
+                "cpe:/o:linux:linux_kernel:3"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}</pre>
+        </details>
+    </div>
+
+</div></body></html>
